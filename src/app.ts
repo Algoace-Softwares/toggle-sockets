@@ -83,7 +83,7 @@ app.get("/", (req: Request, res: Response) => {
 app.get("/health", (req: Request, res: Response) => {
   console.log("🚀 ~ res:", res);
   console.log("🚀 ~ req:", req);
-  return res.status(200).json({ success: true, greeting: "Hello from Toggle WebSocket API Health latest" });
+  return res.status(200).json({ success: true, greeting: "Hello from Toggle WebSocket API Health" });
 });
 
 /*
